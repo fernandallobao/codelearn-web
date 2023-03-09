@@ -1,23 +1,19 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="pt-BR ">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Rômulo Cesar Silvestre Leite">
-    <meta name="description" content="sistema web de aprendizagem industrial">
+    <meta name="author" content="Fernanda Lobão">
+    <meta name="description" content="Sistema web de aprendizagem industrial">
     <meta name="generator" content="Visual Studio Code 1.75.1">
     <meta name="keywords" content="Java, C#, Ensino Industrial">
     <link rel="stylesheet" href="css/geral.css">
     <link rel="stylesheet" href="css/reset.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Exo:wght@100&display=swap" rel="stylesheet">
 
 
     <title>CodeLearn V.1.0.0</title>
@@ -27,16 +23,26 @@
 
 
     <div class="container">
-        <!--Topo do Site-->
-        <div class="row">
-            <nav class="navbar" style="background-color:#005caa;" >
+        <!--Cabeçalho-->
+        <div class="row ">
+            <nav class="navbar  " style="background-color:#005caa;">
                 <div class="container">
                     <a class="navbar-brand" href="#">
-                        <a href="indx
-                        "><img class = "imagem" src="img/senai-logo-1.png" width="210" alt="Bootstrap"></a>
+                        <img class="imagem" src="img/senai-logo-1.png" width="210" alt="Bootstrap">
+                    </a>
+                </div>
+            </nav>
+        </div>
+        <!--cabeçaclho 2-->
+        <div class="row ">
+            <nav class="navbar border border-top-0 border-start-0 border-end-0 border-5 border-secondary border-success p-2 mb-2 border-opacity-25"
+                style="background-color:#edeef0;">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
                         <ul id="menu-superior">
-                            <li><a href="cadastrese.html" style="color:white;" class="fw-bold">Cadastre-se</a ></li>
-                            <li><a href="login.html" style="color:white;" class="fw-bold">Login</a></li>
+                            <li class="border border-top-0 border-bottom-0 border-1 border-dark-subtle"><a href="#"
+                                    style="color:black; ;">CADASTRE-SE</a></li>
+                            <li><a href="#" style="color:black;">LOGIN</a></li>
                         </ul>
                     </a>
                 </div>
@@ -44,23 +50,30 @@
         </div>
         <br>
 
-       
+
         <!-- Conteúdo -->
-        <div class="row">
+        <div class="row" id="divTitulo">
             <!-- Menu Lateral -->
-            <div class="col-md-2" id="menu-lateral"><br>
-                <ul class="nav flex-column">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Quem Somos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Links Úteis</a>
-                    </li>
-                </ul>
-            </div>
+            <div class="col-md-3 border border_start-0 border_bottom-0 border-2" id="menu-lateral"><br>
+                <h5>QUAL UNIDADE DO CURSO?</h5>
+                <form>
+                    
+                        <input type="radio" name="senai" id="rbTaguatinga">Taguatinga <br>
+           
+                        <input type="radio" name="senai" id="rbBrasilia">Brasília <br>
+                    
+                        <input type="radio" name="senai" id="rbGama">Gama <br>
+                     
+                        <input type="radio" name="senai" id="rbSobradinho">Sobradinho
+
+                </form>
+                
+            </div>                                                                                                                                                                                                                                                                                                                 
+           
             <div>
-                <h6>Pagina em manutenção</h6>
+                <img src="" alt="" id="unidade" class="d-none">
             </div>
+            
         </div> <!--fim da segunda linha-->
         <div class="row">
 
@@ -82,9 +95,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
+        <script src="js/teste.js"></script>
 
 </body>
 
 </html>
-
-
