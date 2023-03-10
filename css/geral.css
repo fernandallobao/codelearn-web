@@ -18,7 +18,8 @@ body{
 
 #btnLogar{
    margin-top:20px;
-   width: 480px;
+   width: 405px;
+   
    
 }
 
@@ -32,7 +33,7 @@ body{
 #menu-lateral{
    background:#edeef0;
    border-radius: 10px; 
-   height:700px;
+   height:500px;
 
 }
 #menu-lateral ul li a{
@@ -43,4 +44,8 @@ body{
 
 #cabecalh-3{
    border-radius: 10px;
+}
+#unidade{
+   width: 800px;
+   height: auto;
 }
